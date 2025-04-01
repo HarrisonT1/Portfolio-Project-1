@@ -7,3 +7,13 @@
   --primary-color: #2c3749;
   --secondary-color: #b3d4d9;
 }
+
+/* Global fonts */
+
+h1, h2 {
+  font-family: var(--primary-font);
+}
+
+img {
+  max-width: 80vw;
+}

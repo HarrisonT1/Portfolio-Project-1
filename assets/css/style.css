@@ -109,6 +109,18 @@ main {
   margin-bottom: 10px;
 }
 
+#benefits h3 {
+  text-align: center;
+}
+
+#benefits ul {
+  padding: 0;
+}
+
+#benefits li {
+  list-style-type: none;
+}
+
 /* footer */
 
 #footer {
@@ -127,7 +139,7 @@ main {
   flex-direction: column;
 }
 
-#footer h2, h3 {
+#footer h2 {
   text-decoration: underline;
   margin-bottom: 10px;
 }

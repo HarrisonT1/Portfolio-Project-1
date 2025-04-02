@@ -11,12 +11,12 @@
 /* Global variables */
 
 body {
-  font-family: var(--secondary-font);
+  font-family: var(--primary-font);
   text-align: center;
 }
 
 h1, h2 {
-  font-family: var(--primary-font);
+  font-family: var(--secondary-font);
 }
 
 /* End of global variables */

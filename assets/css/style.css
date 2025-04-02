@@ -19,6 +19,10 @@ h1, h2 {
   font-family: var(--secondary-font);
 }
 
+.container {
+  padding: 0;
+}
+
 /* End of global variables */
 
 /* to make picture more visible - temp */
@@ -30,6 +34,7 @@ img {
 
 #navbar {
   background-color: var(--primary-color);
+  padding: 0;
 }
 
 .navbar-toggler {
@@ -37,5 +42,18 @@ img {
 }
 
 /* End of nav */
+
+/* Main */
+
+main {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+/* facilities */
+
+#facilities div {
+  
+}
 
 /* media queries */

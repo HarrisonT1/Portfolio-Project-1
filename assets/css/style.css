@@ -98,4 +98,22 @@ main {
   padding-top: 5px;
 }
 
+/* footer */
+
+#footer {
+  background-color: var(--primary-color);
+  /* temp for visiblity */
+  height: 100vh;
+  color: white;
+}
+
+table tr {
+  border: 1px solid black;
+}
+
+#footer h3 {
+  margin: 0;
+}
+
+
 /* media queries */

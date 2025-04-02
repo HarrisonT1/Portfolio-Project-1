@@ -89,7 +89,7 @@ main {
   padding-right: 10vw;
 }
 
-/* facilities */
+/* facilities section */
 
 #facilities {
   margin-top: 20px;
@@ -101,6 +101,12 @@ main {
 
 #facilities div {
   flex-direction: column;
+}
+
+/* benefits section */
+
+#benefits img {
+  margin-bottom: 10px;
 }
 
 /* footer */

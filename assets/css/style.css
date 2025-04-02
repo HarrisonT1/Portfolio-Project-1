@@ -61,6 +61,7 @@ img {
 #navbar {
   background-color: var(--primary-color);
   padding: 0;
+  margin-bottom: 10px;
 }
 
 .navbar-toggler {
@@ -68,6 +69,17 @@ img {
 }
 
 /* End of nav */
+
+/* header */
+
+header {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+header button {
+  margin-bottom: 15px;
+}
 
 /* Main */
 
@@ -78,8 +90,12 @@ main {
 
 /* facilities */
 
-#facilities div {
+#facilities {
+  margin-top: 20px;
+}
 
+#facilities img + p {
+  padding-top: 5px;
 }
 
 /* media queries */

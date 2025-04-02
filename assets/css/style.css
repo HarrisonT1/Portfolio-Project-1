@@ -23,6 +23,7 @@ h1, h2 {
 
 .container {
   padding: 0;
+  display: flex;
 }
 
 /* End of global variables */
@@ -98,6 +99,10 @@ main {
   padding-top: 5px;
 }
 
+#facilities div {
+  flex-direction: column;
+}
+
 /* footer */
 
 #footer {
@@ -107,8 +112,18 @@ main {
   color: white;
 }
 
+#footer div {
+  flex-direction: column;
+}
+
+.open-times table {
+  align-items: center;
+  margin: 10px 20px;
+}
+
 table tr {
   border: 1px solid black;
+  
 }
 
 #footer h3 {

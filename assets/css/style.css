@@ -5,7 +5,8 @@
   --primary-font: "EB Garamond", serif;
   --secondary-font: "Inter", sans-serif;;
   --primary-color: #2C3749;
-  --secondary-color: #b3d4d9;
+  --secondary-color: #36A7D5;
+  --hightlight-color: #1d338a;
 }
 
 /* Global variables */
@@ -13,6 +14,7 @@
 body {
   font-family: var(--primary-font);
   text-align: center;
+  box-sizing: border-box;
 }
 
 h1, h2 {
@@ -24,6 +26,30 @@ h1, h2 {
 }
 
 /* End of global variables */
+
+/* button */
+
+.button-style {
+  background-color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  border: 0;
+  border-radius: 5px;
+  font-size: 0.7em;
+  width: 60px;
+  height: 35px;
+  text-align: center;
+  padding: 0;
+}
+
+.button-style:hover {
+  background-color: var(--hightlight-color);
+  border: 1px solid white;
+}
+
+.button-style a {
+  text-decoration: none;
+  color: white;
+}
 
 /* to make picture more visible - temp */
 img {
@@ -53,7 +79,7 @@ main {
 /* facilities */
 
 #facilities div {
-  
+
 }
 
 /* media queries */

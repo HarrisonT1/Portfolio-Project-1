@@ -12,6 +12,7 @@
 
 body {
   font-family: var(--secondary-font);
+  text-align: center;
 }
 
 h1, h2 {
@@ -22,6 +23,7 @@ h1, h2 {
 
 /* to make picture more visible - temp */
 img {
+  margin-top: 50px;
   max-width: 80vw;
 }
 

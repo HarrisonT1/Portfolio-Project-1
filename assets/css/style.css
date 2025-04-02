@@ -23,7 +23,6 @@ h1, h2 {
 
 .container {
   padding: 0;
-  display: flex;
 }
 
 /* End of global variables */
@@ -54,7 +53,7 @@ h1, h2 {
 
 /* to make picture more visible - temp */
 img {
-  max-width: 80vw;
+  max-width: 300px;
 }
 
 /* Nav */
@@ -84,23 +83,19 @@ header button {
 
 /* Main */
 
-main {
-  padding-left: 10vw;
-  padding-right: 10vw;
-}
-
 /* facilities section */
 
 #facilities {
   margin-top: 20px;
+  margin-left: 0;
+}
+
+#facilities img {
+  width: 100%;
 }
 
 #facilities img + p {
   padding-top: 5px;
-}
-
-#facilities div {
-  flex-direction: column;
 }
 
 /* benefits section */
@@ -145,8 +140,7 @@ main {
 }
 
 .open-times table {
-  align-items: center;
-  margin: 20px 20px;
+  margin: auto;
 }
 
 #footer table tr {
@@ -171,3 +165,18 @@ main {
 }
 
 /* media queries */
+
+/* medium screen (table and up, 768px) */
+/* @media screen and (min-width: 768px){
+  img {
+    max-width: 400px;
+  }
+
+  #facilities {
+    flex-direction: column;
+  }
+
+  #facilities div {
+    display: flex;
+  }
+} */

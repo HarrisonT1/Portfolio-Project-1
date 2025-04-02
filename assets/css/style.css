@@ -108,27 +108,48 @@ main {
 #footer {
   background-color: var(--primary-color);
   /* temp for visiblity */
-  height: 100vh;
   color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#footer p {
+  margin: 0;
 }
 
 #footer div {
   flex-direction: column;
 }
 
-.open-times table {
-  align-items: center;
-  margin: 10px 20px;
+#footer h2, h3 {
+  text-decoration: underline;
+  margin-bottom: 10px;
 }
 
-table tr {
-  border: 1px solid black;
+.open-times table {
+  align-items: center;
+  margin: 20px 20px;
+}
+
+#footer table tr {
+  border: 2px solid rgb(255, 255, 255);
   
 }
 
-#footer h3 {
-  margin: 0;
+#social-links {
+  margin-bottom: 20px;
+  margin-top: 15px;
 }
 
+#social-links a {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin: 0 5px;
+
+}
+
+#social-links a:hover {
+  color: rgb(184, 184, 184);
+}
 
 /* media queries */

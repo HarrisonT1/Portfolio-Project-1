@@ -132,7 +132,17 @@ main p {
 
 /* Booking form */
 
+#booking-form .row {
 
+}
+
+#booking-form input, select {
+  margin-bottom: 10px;
+}
+
+/* #booking-form {
+  margin: 20px;
+} */
 
 /* footer */
 

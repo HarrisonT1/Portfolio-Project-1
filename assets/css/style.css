@@ -120,18 +120,19 @@ header button {
 
 #footer {
   background-color: var(--primary-color);
-  /* temp for visiblity */
   color: white;
   padding-top: 10px;
-  padding-bottom: 10px;
+  width: 100%;
+  margin: 0;
+}
+
+#footer div{
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 #footer p {
   margin: 0;
-}
-
-#footer div {
-  flex-direction: column;
 }
 
 #footer h2 {
@@ -139,18 +140,22 @@ header button {
   margin-bottom: 10px;
 }
 
-.open-times table {
+#open-times table {
   margin: auto;
+  padding: 5px;
+  min-width: 33%;
+}
+
+#open-times tr:hover {
+  background-color: #3d4653;
 }
 
 #footer table tr {
   border: 2px solid rgb(255, 255, 255);
-  
 }
 
 #social-links {
-  margin-bottom: 20px;
-  margin-top: 15px;
+
 }
 
 #social-links a {
@@ -166,17 +171,20 @@ header button {
 
 /* media queries */
 
-/* medium screen (table and up, 768px) */
-/* @media screen and (min-width: 768px){
-  img {
-    max-width: 400px;
-  }
-
-  #facilities {
-    flex-direction: column;
-  }
-
-  #facilities div {
+/* for 768px screens and above (tables) */
+@media screen and (min-width: 768px) {
+  #information {
     display: flex;
+    justify-content: space-evenly;
   }
-} */
+}
+
+/* for 992px screens and above (tables) */
+@media screen and (min-width: 992px) {
+  #footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+}

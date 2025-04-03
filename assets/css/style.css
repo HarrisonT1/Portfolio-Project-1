@@ -173,6 +173,16 @@ header button {
 
 /* for 768px screens and above (tables) */
 @media screen and (min-width: 768px) {
+  #benefits {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+  }
+  
+  #benefits img {
+    
+  }
+
   #information {
     display: flex;
     justify-content: space-evenly;

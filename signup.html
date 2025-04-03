@@ -46,60 +46,53 @@
     <div>
       <h1>Fusion Gym</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id similique molestiae accusamus repellat quam. Corporis sapiente quis quia explicabo impedit consectetur vero a? Delectus deserunt autem aliquid perferendis sapiente blanditiis?</p>
-      <button class="button-style">
-       <a href="#">CTA</a>
-      </button>
     </div>
-    <img id="hero-image" src="assets/images/hero-image.jpg" alt="A women planking with dumbells">
   </header>
   <main>
-    <section class="container section">
-      <div class="col-12">
-        <h2>Facilities</h2>
-      </div>
-      <div id="facilities" class="row text-center">
-        <div class="col-12 col-md-6 col-lg-3">
-          <h3>Cardio equipment</h3>
-             <img src="assets/images/cardio-equipment.jpg" alt="A row of cadio equipment.">
-           <p>There is a large range of cardio equipment for all users, including but not limited to, rowing machines, treadmills and bikes.</p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <h3>Weights</h3>
-          <img src="assets/images/dumbbell-rack.jpg" alt="">
-           <p>From dumbells to kettlebells, there is a range weights for different practices and exercises.</p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <h3>Swimming pool</h3>
-          <img src="assets/images/swimming-lesson.jpg" alt="">
-          <p>The swimming pool is available for all ages, in both free-use and lessons.</p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <h3>Sauna room</h3>
-          <img src="assets/images/sauna.jpg" alt="">
-          <p>A luxuary sauna, available to all members during the weekends.</p>
-        </div>
-      </div>
-    </section>
-    <section class="section container">
-      <h2>Benefits</h2>
-      <div id="benefits">
-        <div id="psychological-benefits">
-          <img src="assets/images/mental-benefits.jpg" alt="A brain surrounded by light bulbs on black background">
-          <h3>Psychological benefits</h3>
-          <ul>
-            <li>Increase self-esteem</li>
-            <li>Imporves mental health</li>
-            <li>improves cognitive function</li>
-          </ul>
-        </div>
-        <div id="physical-benefits">
-          <img src="assets/images/rope.jpg" alt="A person using battle ropes">
-          <h3>Physical benefits</h3>
-          <ul>
-            <li>Controls weight gain</li>
-            <li>Boosts energy levels</li>
-            <li>Improves sleep</li>
-          </ul>
+    <section id="booking-form" class="container section">
+      <div class="row">
+        <div>
+          <h2>Book A Class</h2>
+          <form action="#" method="get">
+            <div class="row">
+              <div>
+                <label for="">Name</label>
+                <input type="text" required>
+              </div>
+              <div>
+                <label for="">Phone number</label>
+                <input type="text" required>
+              </div>
+              <div>
+                <label for="">Email</label>
+                <input type="text" required>
+              </div>
+              <div>
+                <label for="">Date</label>
+                <input type="date" required>
+              </div>
+              <div>
+                <label for="">Time</label>
+                <input type="number" required>
+              </div>
+              <div>
+                <label for="">Select class</label>
+                <select type="text" required>
+                  <option value="">Select an option</option>
+                  <option value="">HIIT</option>
+                  <option value="">Hyrox</option>
+                  <option value="">Swimming</option>
+                </select>
+              </div>
+              <div>
+                <label for="">Additional information</label>
+                <textarea type="text" required></textarea>
+              </div>
+              <button type="submit">
+                Sumbit form
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </section>

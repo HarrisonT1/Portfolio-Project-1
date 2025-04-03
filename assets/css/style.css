@@ -25,6 +25,10 @@ h1, h2 {
   padding: 0;
 }
 
+.col-12 {
+  padding: 0;
+}
+
 /* End of global variables */
 
 /* button */
@@ -73,20 +77,31 @@ img {
 /* header */
 
 header {
-  padding-left: 10vw;
-  padding-right: 10vw;
+  margin-bottom: 30px;
 }
 
 header button {
   margin-bottom: 15px;
 }
 
+
+header p {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
 /* Main */
+
+main p {
+  margin-left: 15%;
+  margin-right: 15%;
+}
 
 /* facilities section */
 
 #facilities {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 0;
 }
 
@@ -171,16 +186,17 @@ header button {
 
 /* media queries */
 
+/* for 576px screens and above (tables) */
+@media screen and (min-width: 576px) {
+
+}
+
 /* for 768px screens and above (tables) */
 @media screen and (min-width: 768px) {
   #benefits {
     display: flex;
     justify-content: space-evenly;
     margin: auto;
-  }
-  
-  #benefits img {
-    
   }
 
   #information {

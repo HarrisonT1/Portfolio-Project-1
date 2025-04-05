@@ -132,8 +132,9 @@ main p {
 
 /* Booking form */
 
-#booking-form .row {
-
+#booking-form button {
+  margin: 20px;
+  width: 100px;
 }
 
 #booking-form input, select {

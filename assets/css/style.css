@@ -29,10 +29,6 @@ h1, h2 {
   padding: 0;
 }
 
-.col-12 {
-  padding: 0;
-}
-
 img {
   max-width: 300px;
 }
@@ -226,4 +222,9 @@ main p {
     padding-left: 10vw;
     padding-right: 10vw;
   }
+}
+
+/* for 1200px screens and above (tables) */
+@media screen and (min-width: 1200px) {
+
 }

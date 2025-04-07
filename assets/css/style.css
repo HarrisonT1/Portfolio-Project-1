@@ -48,6 +48,10 @@ img {
   padding: 0;
 }
 
+#success-button {
+  width: 110px;
+}
+
 .button-style:hover {
   background-color: var(--hightlight-color);
   border: 1px solid white;
@@ -141,9 +145,11 @@ main p {
   margin-bottom: 10px;
 }
 
-/* #booking-form {
-  margin: 20px;
-} */
+/* success page */
+
+#form-success h2 {
+  margin-bottom: 20px;
+}
 
 /* footer */
 

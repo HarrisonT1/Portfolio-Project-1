@@ -48,8 +48,9 @@ img {
   padding: 0;
 }
 
-#success-button {
-  width: 110px;
+.wide-button {
+  width: 100px;
+  height: 40px;
 }
 
 .button-style:hover {
@@ -69,6 +70,12 @@ img {
   background-color: var(--primary-color);
   padding: 0;
   margin-bottom: 10px;
+  min-height: 70px;
+  font-size: 1.2rem;
+}
+
+#navbar li {
+  padding-left: 10px;
 }
 
 .navbar-toggler {
@@ -110,6 +117,7 @@ main p {
 
 #facilities img {
   width: 100%;
+  max-height: 200px;
 }
 
 #facilities img + p {
@@ -117,6 +125,10 @@ main p {
 }
 
 /* benefits section */
+
+#benefits h2 {
+  margin-bottom: 20px;
+}
 
 #benefits img {
   margin-bottom: 10px;
@@ -229,9 +241,14 @@ main p {
     padding-left: 10vw;
     padding-right: 10vw;
   }
+  #facilities img {
+    max-height: 144.6px;
+  }
 }
 
 /* for 1200px screens and above (tables) */
 @media screen and (min-width: 1200px) {
-
+  #facilities img {
+    max-height: 174.6px;
+  }
 }

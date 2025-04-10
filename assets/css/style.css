@@ -180,15 +180,24 @@ main p {
 /* Class page table */
 
 #price-list {
-  
+  margin-top: 20px;
 }
 
 #price-table {
   /* temp for visability */
   margin: auto;
-  font-size: 2em;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+#price-table th {
+  background-color: var(--primary-color);
+  opacity: 40%;
+  color: white;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 /* success page */
@@ -249,11 +258,28 @@ main p {
 /* media queries */
 
 /* for 576px screens and above (tables) */
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
+  #price-table {
+    rotate: 90deg;
+    margin-top: 310px;
+    margin-bottom: 310px;
+  }
 
+  #price-table th {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
 }
 
-/* for 768px screens and above (tables) */
+/* for 576px screens and above (tables) */
+@media screen and (min-width: 576px) {
+  #price-table th {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* for 768px screens and above (laptop) */
 @media screen and (min-width: 768px) {
   #benefits {
     display: flex;
@@ -265,9 +291,14 @@ main p {
     display: flex;
     justify-content: space-evenly;
   }
+
+  #price-table th {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
-/* for 992px screens and above (tables) */
+/* for 992px screens and above (large screen) */
 @media screen and (min-width: 992px) {
   #footer {
     display: flex;
@@ -280,7 +311,7 @@ main p {
   }
 }
 
-/* for 1200px screens and above (tables) */
+/* for 1200px screens and above (xl screen) */
 @media screen and (min-width: 1200px) {
   #facilities img {
     max-height: 174.6px;

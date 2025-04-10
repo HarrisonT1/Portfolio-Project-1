@@ -177,6 +177,20 @@ main p {
   padding-right: 10px;
 }
 
+/* Class page table */
+
+#price-list {
+  
+}
+
+#price-table {
+  /* temp for visability */
+  margin: auto;
+  font-size: 2em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 /* success page */
 
 #form-success h2 {

@@ -157,6 +157,26 @@ main p {
   margin-bottom: 10px;
 }
 
+/* Classes page */
+
+#classes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#classes p {
+  width: 300px;
+  margin: 0;
+}
+
+#classes div {
+  margin: auto;
+  height: 320px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /* success page */
 
 #form-success h2 {

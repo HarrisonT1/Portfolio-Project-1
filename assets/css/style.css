@@ -37,6 +37,7 @@ img {
 hr {
   color: var(--hightlight-color);
   border-width: 10px;
+  min-width: 100%;
 }
 
 .site-logo {
@@ -113,9 +114,19 @@ header p {
 
 /* Main */
 
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 main p {
   margin-left: 15%;
   margin-right: 15%;
+}
+
+hr {
+  color: var(--hightlight-color);
+  border-width: 10px;
 }
 
 /* facilities section */
@@ -194,7 +205,6 @@ main p {
 }
 
 #price-table {
-  /* temp for visability */
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;

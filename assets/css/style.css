@@ -257,17 +257,19 @@ main p {
 
 /* media queries */
 
-/* for 576px screens and above (tables) */
+/* for 576px screens and below (tables) */
 @media screen and (max-width: 576px) {
-  #price-table {
-    rotate: 90deg;
-    margin-top: 310px;
-    margin-bottom: 310px;
+  #classes-container img {
+    width: 200px;
+  }
+
+  #classes-container p {
+    width: 200px;
   }
 
   #price-table th {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -290,11 +292,6 @@ main p {
   #information {
     display: flex;
     justify-content: space-evenly;
-  }
-
-  #price-table th {
-    padding-left: 50px;
-    padding-right: 50px;
   }
 }
 

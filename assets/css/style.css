@@ -325,6 +325,11 @@ hr {
     padding-right: 10vw;
     font-size: 0.9rem;
   }
+
+  #footer h2 {
+    font-size: 0.9rem;
+  }
+
   #facilities img {
     max-height: 144.6px;
   }

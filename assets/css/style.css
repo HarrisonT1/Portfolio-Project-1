@@ -23,6 +23,7 @@ body {
 
 h1, h2 {
   font-family: var(--secondary-font);
+  color: var(--secondary-color);
 }
 
 .container {
@@ -31,6 +32,15 @@ h1, h2 {
 
 img {
   max-width: 300px;
+}
+
+hr {
+  color: var(--hightlight-color);
+  border-width: 10px;
+}
+
+.site-logo {
+  margin-left: 20px;
 }
 /* End of global variables */
 

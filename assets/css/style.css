@@ -3,7 +3,7 @@
 
 :root {
   --primary-font: "EB Garamond", serif;
-  --secondary-font: "Inter", sans-serif;;
+  --secondary-font: "Inter", sans-serif;
   --primary-color: #2C3749;
   --secondary-color: #36A7D5;
   --hightlight-color: #1d338a;
@@ -24,6 +24,13 @@ body {
 h1, h2 {
   font-family: var(--secondary-font);
   color: var(--secondary-color);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: var(--primary-font);
+  font-weight: 600;
 }
 
 .container {
@@ -210,6 +217,10 @@ hr {
   margin-bottom: 20px;
   font-size: 1.1rem;
   text-align: center;
+}
+
+#price-table td:hover {
+  background: lightgrey;
 }
 
 #price-table th {

@@ -41,15 +41,18 @@ img {
   max-width: 300px;
 }
 
-hr {
-  color: var(--hightlight-color);
-  border-width: 10px;
-  min-width: 100%;
-}
-
 .site-logo {
   margin-left: 20px;
 }
+
+hr {
+  border: 2px var(--secondary-color) solid;
+  width: 85%;
+  margin: 20px auto;
+  position: relative;
+  z-index: -1;
+}
+
 /* End of global variables */
 
 /* button */
@@ -81,10 +84,11 @@ hr {
   color: white;
 }
 
-
 /* Nav */
 
 #navbar {
+  position: sticky;
+  top: 0;
   background-color: var(--primary-color);
   padding: 0;
   margin-bottom: 10px;
@@ -129,11 +133,6 @@ main {
 main p {
   margin-left: 15%;
   margin-right: 15%;
-}
-
-hr {
-  color: var(--hightlight-color);
-  border-width: 10px;
 }
 
 /* facilities section */
@@ -251,7 +250,7 @@ hr {
   padding-bottom: 15px;
   padding-top: 15px;
   margin-left: 20px;
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #footer p {
@@ -291,6 +290,11 @@ hr {
 
 /* for 576px screens and below (tables) */
 @media screen and (max-width: 576px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+
   #classes-container img {
     width: 200px;
   }

@@ -47,7 +47,8 @@ img {
 
 hr {
   border: 2px var(--secondary-color) solid;
-  width: 85%;
+  max-width: 1440px;
+  width: auto;
   margin: 20px auto;
   position: relative;
   z-index: -1;

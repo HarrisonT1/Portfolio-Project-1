@@ -123,6 +123,10 @@ header p {
   margin-bottom: 20px;
 }
 
+#hero-image {
+  box-shadow: 0 1px 1px #d1d1d1;;
+}
+
 /* Main */
 
 main {

@@ -214,6 +214,11 @@ main p {
   margin-top: 20px;
 }
 
+#price-list p {
+  font-weight: 300;
+  font-size: 0.75rem;
+}
+
 #price-table {
   margin: auto;
   margin-top: 20px;
@@ -237,6 +242,10 @@ main p {
 /* success page */
 
 #form-success h2 {
+  margin-bottom: 20px;
+}
+
+#success-button {
   margin-bottom: 20px;
 }
 

@@ -37,10 +37,6 @@ h3 {
   padding: 0;
 }
 
-img {
-  max-width: 300px;
-}
-
 .site-logo {
   margin-left: 20px;
 }
@@ -138,9 +134,7 @@ header p {
   margin-bottom: 20px;
 }
 
-#hero-image {
-  box-shadow: 0 1px 1px #d1d1d1;;
-}
+/* Carousel */
 
 /* Main */
 
@@ -178,6 +172,7 @@ main p {
 
 #benefits img {
   margin-bottom: 10px;
+  max-width: 300px;
 }
 
 #benefits h3 {

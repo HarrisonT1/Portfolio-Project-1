@@ -15,10 +15,16 @@ body {
   font-family: var(--primary-font);
   text-align: center;
   box-sizing: border-box;
+  background-color: black;
+  color: white;
   /* to make footer stick to bottom */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+img {
+  width: 300px;
 }
 
 h1, h2 {
@@ -121,6 +127,8 @@ hr {
 
 header {
   margin-bottom: 10px;
+  position: relative;
+  z-index: -1;
 }
 
 header button {
@@ -135,6 +143,10 @@ header p {
 }
 
 /* Carousel */
+
+#carousel {
+  
+}
 
 /* Main */
 
@@ -233,7 +245,7 @@ main p {
 }
 
 #price-table td:hover {
-  background: lightgrey;
+  background: rgb(88, 88, 88);
 }
 
 #price-table th {

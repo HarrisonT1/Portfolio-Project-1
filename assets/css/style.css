@@ -53,7 +53,7 @@ hr {
 }
 
 section {
-  padding-top: 3rem;
+  padding-top: 4.3rem;
 }
 
 /* End of global variables */
@@ -142,7 +142,7 @@ header p {
 /* Carousel */
 
 #carousel {
-  
+  margin: auto;
 }
 
 /* Main */
@@ -159,12 +159,9 @@ main p {
 
 /* facilities section */
 
-#facilities {
-  margin-left: 0;
-}
-
 #facilities img {
   width: 100%;
+  height: auto;
   max-height: 200px;
 }
 
@@ -180,7 +177,8 @@ main p {
 
 #benefits img {
   margin-bottom: 10px;
-  max-width: 300px;
+  width: 100%;
+  height: auto;
 }
 
 #benefits h3 {
@@ -313,7 +311,6 @@ main p {
 /* for 576px screens and below (tables) */
 @media screen and (max-width: 576px) {
   img {
-    width: 100%;
     height: auto;
   }
 
@@ -353,6 +350,13 @@ main p {
   }
 }
 
+/* for 768px screens and below (laptop) */
+@media screen and (max-width: 768px) {
+  img {
+    height: auto;
+  }
+}
+
 /* for 992px screens and above (large screen) */
 @media screen and (min-width: 992px) {
   #nav-bar li {
@@ -372,7 +376,7 @@ main p {
   }
 
   #facilities img {
-    max-height: 144.6px;
+    height: 144.6px;
   }
 }
 

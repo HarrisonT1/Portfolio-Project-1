@@ -4,8 +4,8 @@
 :root {
   --primary-font: "EB Garamond", serif;
   --secondary-font: "Inter", sans-serif;
-  --primary-color: #2C3749;
-  --secondary-color: #36A7D5;
+  --primary-color: #324552;
+  --secondary-color: #9ED5EB;
   --hightlight-color: #1d338a;
 }
 
@@ -62,7 +62,7 @@ section {
 
 .button-style {
   background-color: var(--secondary-color);
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: var(--secondary-font);
   display: block;
   border: 0;

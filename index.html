@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Fusion gym, a family run gym which provides equipment and resources welcome for all.">
   <meta name="keywords" content="gym, weight-lifting, classes, fitness">
-  <title>FUSION GYM</title>
+  <title>FUSION GYM | Home</title>
   <!-- Favicon by favicon.io -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
@@ -17,7 +17,7 @@
 </head>
 <body>
   <!-- nav added using bootstrap -->
-  <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
     <div class="container">
       <a class="navbar-brand site-logo" href="index.html">
         Fusion Gym
@@ -54,34 +54,38 @@
       <a id="CTA" class="nav-link button-style wide-button" href="signup.html">Sign up</a>
     </div>
     <!-- Add carousel from bootstrap -->
-    <div id="carousel" class="col-12 col-xl-6">
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/images/hero-image.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/boxing.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/situps.jpg" class="d-block w-100" alt="...">
+    <div class="container">
+      <div class="row text-center">
+        <div id="carousel" class="col-6 text-center">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/hero-image.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/boxing.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/situps.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
   </header>
   <main>
     <hr>
-    <section class="container section">
-      <div id="facilities" class="row text-center">
+    <section id="facilities" class="container section">
+      <div class="row text-center">
         <div class="col-12">
           <h2>Facilities</h2>
         </div>
@@ -108,8 +112,8 @@
       </div>
     </section>
     <hr>
-    <section class="section container">
-      <div id="benefits" class="row">
+    <section id="benefits" class="section container">
+      <div class="row">
         <div class="col-12">
           <h2>Benefits</h2>
         </div>

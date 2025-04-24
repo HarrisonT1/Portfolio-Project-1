@@ -205,6 +205,8 @@ main p {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  margin: auto;
+  max-width: 1440px;
 }
 
 #classes p {
@@ -213,10 +215,10 @@ main p {
 }
 
 #classes div {
-  margin: auto;
   height: 320px;
   padding-left: 10px;
   padding-right: 10px;
+  margin: auto;
 }
 
 /* Class page table */

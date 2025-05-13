@@ -105,6 +105,14 @@ section {
   width: 200px;
 }
 
+#error-button {
+  width: 180px;
+}
+
+#error-button a {
+  color: black;
+}
+
 /* Nav */
 
 #navbar {
@@ -256,6 +264,17 @@ main p {
 
 #form-success h2 {
   margin-bottom: 20px;
+}
+
+/* error page */
+
+#error-page p {
+  font-size: 30px;
+}
+
+#error-image {
+  width: 500px;
+  margin-top: 50px;
 }
 
 /* footer */

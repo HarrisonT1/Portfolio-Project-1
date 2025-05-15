@@ -147,10 +147,16 @@ header p {
   margin-bottom: 20px;
 }
 
-/* Carousel */
+/* Hero */
 
-#carousel {
-  margin: auto;
+#hero {
+  margin: 0 10%;
+}
+
+#hero img {
+  height: auto;
+  width: 100%;
+  max-width: 700px;
 }
 
 /* Main */

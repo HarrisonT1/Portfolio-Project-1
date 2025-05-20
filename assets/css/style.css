@@ -103,6 +103,7 @@ section {
 #success-button {
   margin-bottom: 20px;
   width: 200px;
+  padding-top: 7px;
 }
 
 #error-button {

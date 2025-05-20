@@ -410,6 +410,6 @@ main p {
 /* for 1200px screens and above (xl screen) */
 @media screen and (min-width: 1200px) {
   #facilities img {
-    max-height: 174.6px;
+    height: auto;
   }
 }

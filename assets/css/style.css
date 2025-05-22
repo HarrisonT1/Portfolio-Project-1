@@ -375,6 +375,10 @@ main p {
     display: flex;
     justify-content: space-evenly;
   }
+
+  #booking-form div{
+    margin-bottom: 45px;
+  }
 }
 
 /* for 768px screens and below (laptop) */
@@ -410,6 +414,6 @@ main p {
 /* for 1200px screens and above (xl screen) */
 @media screen and (min-width: 1200px) {
   #facilities img {
-    height: auto;
+    height: 174px;
   }
 }

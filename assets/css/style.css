@@ -353,13 +353,9 @@ main p {
     padding-left: 15px;
     padding-right: 15px;
   }
-}
 
-/* for 576px screens and above (tables) */
-@media screen and (min-width: 576px) {
-  #price-table th {
-    padding-left: 15px;
-    padding-right: 15px;
+  #price-table {
+    font-size: 0.8em;
   }
 }
 

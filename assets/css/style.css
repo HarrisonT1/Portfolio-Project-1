@@ -381,12 +381,12 @@ main p {
   }
 
   #facilities img {
-    max-height: 224px;
+    max-height: 214px;
   }
 }
 
-/* for 768px screens and below (laptop) */
-@media screen and (max-width: 768px) {
+/* for 767px screens and below (laptop) */
+@media screen and (max-width: 767px) {
   img {
     height: auto;
   }

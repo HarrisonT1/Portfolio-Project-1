@@ -379,12 +379,20 @@ main p {
   #booking-form div{
     margin-bottom: 45px;
   }
+
+  #facilities img {
+    max-height: 224px;
+  }
 }
 
 /* for 768px screens and below (laptop) */
 @media screen and (max-width: 768px) {
   img {
     height: auto;
+  }
+
+  #facilities img {
+    max-height: 344px;
   }
 }
 
